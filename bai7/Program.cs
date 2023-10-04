@@ -12,9 +12,9 @@ namespace bai7
         static void Main(string[] args)
         {
             int sothang;
-            double laisuat, tiengui,tienlai, tienlai1;
+            double laisuat, tiengui, laisuatthang, tienlaithang;
 
-            Console.Write("Số tiền gửi tiết kiệm: ");
+            Console.Write("So tien gui tiet kiem: ");
             tiengui = Convert.ToInt16(Console.ReadLine());
 
             do
@@ -23,11 +23,11 @@ namespace bai7
                 laisuat = Convert.ToDouble(Console.ReadLine());
             } while (laisuat<=0 || laisuat>20);
             
-            do
-            {
-                Console.Write("Số tháng gửi: ");
-                sothang = Convert.ToInt16(Console.ReadLine());
-            }while (sothang <1 || sothang>12);
+          
+            Console.Write("Số tháng gửi: ");
+            sothang = Convert.ToInt16(Console.ReadLine());
+
+            laisuatthang = (laisuat / 12) / 100;
 
             Console.WriteLine("\n");
             Console.Write("Số tháng       Tiền gốc+lãi       Tiền lãi tháng");
@@ -36,16 +36,12 @@ namespace bai7
 
             for (int i = 1; i <= sothang; i++)
             {
-                if (i == 1)
                 {
-                    tienlai = (laisuat / 12) / 100;
-                    Console.Write($"{i}       {tiengui}       {tienlai}");
+                    Console.Write($"{i}       {tiengui}       {tienlaithang=(tiengui*laisuatthang)}");
+                    tiengui += tienlaithang;
                     Console.Write("\n");
                 }
-                else
-                    tienlai1 = tiengui + tienlai;
-                    Console.Write($"{i}       {tiengui*tienlai1}       {tiengui = (laisuat / 12) / 100}");
-                    Console.Write("\n");
+                
 
             }
         }
