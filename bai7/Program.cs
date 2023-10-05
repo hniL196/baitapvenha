@@ -11,7 +11,7 @@ namespace bai7
     {
         static void Main(string[] args)
         {
-            float laisuatthang, tienlaithang, tiengui, sothang, laisuat;
+            float laisuatthang, tienlaithang, sothang, laisuat, tiengui;
 
             Console.Write("So tien gui tiet kiem: ");
             tiengui = Convert.ToInt32(Console.ReadLine());
@@ -40,7 +40,7 @@ namespace bai7
                     Console.Write($"   {i}               {tiengui}             {tienlaithang=(tiengui*laisuatthang)}");
                     tiengui += tienlaithang;
                     Console.Write("\n");
-                }               
+                }
             }
         }
     }

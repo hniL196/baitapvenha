@@ -6,3 +6,43 @@
 - 
 - Map. bàn
 - 
+
+Có 2 hướng tiếp cận
+1. Hướng cấu trúc ( hướng dữ liệu - data.driven)
+- Input (nhập liệu)
+- Convert 
+- Output
+
+2. Hướng đối tượng ( object - oriented - programing) : là tập trung vào đối tượng và chia nhiều class object riêng.
+- khả năng tái sử dụng cao
+- dễ dàng bảo trì 
+- dễ mở rộng dự án
+- bảo mật cao
+- tiết kiệm tài nguyên
+
+- Class : đưa ra 1 form chung để hướng tới object.
+
+- Khái niệm lqan đến đối tượng
+	+ Thuộc tính (attribute)
+	+ bahavior - operation ( hành động) : Hành động chung		
+	+ Phương thức ( method diễn biến hành động)
+	+ Thông điệp (Messenge)
+	+ Sự kiện (Event)
+
+- 4 tính chất trong OOP
+	+ Data	abtraction (trừu tượng)
+		Là ẩn đi việc thực thi chi tiết
+		Là abstract class và interface
+		Gồm : Abstract class, abtract method, interface
+	+ Encapsulation (đóng gói)
+		Hạn chế việc truy cập các hành vi của class
+		Gồm : Class of Interface, accsess moditifiers, public, private
+	+ Inheritance ( kế thừa )
+		Lớp con kế thừa lại các thuộc tính và hành động của lớp cha
+		Một lớp con có thể kế thừa từ nhiều lớp cha
+		Gồm : Parent child concept, 
+	+ Polymorphism (đa hình)
+		Cùng một hành động của 1 đối tượng nhưng có những biểu hiện khác nhau
+		trong những tình huống khác nhau
+		Gồm : Compile time or Method overloading 
+		runtime or method overrrding

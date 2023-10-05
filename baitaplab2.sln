@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bai6", "bai6\bai6.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bai7", "bai7\bai7.csproj", "{C8301A6F-FA85-4246-B954-5EF9C757CDF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baitaptronggio", "baitaptronggio\baitaptronggio.csproj", "{452C4DEB-E460-4EBF-A7AE-356F1AEEDDD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{C8301A6F-FA85-4246-B954-5EF9C757CDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8301A6F-FA85-4246-B954-5EF9C757CDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8301A6F-FA85-4246-B954-5EF9C757CDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452C4DEB-E460-4EBF-A7AE-356F1AEEDDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452C4DEB-E460-4EBF-A7AE-356F1AEEDDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452C4DEB-E460-4EBF-A7AE-356F1AEEDDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452C4DEB-E460-4EBF-A7AE-356F1AEEDDD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
