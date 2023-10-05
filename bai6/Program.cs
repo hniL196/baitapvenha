@@ -10,31 +10,45 @@ namespace bai6
     {
         static void Main(string[] args)
         {
-            int[] list = new int[11];
+            int d;
+            d = 2 * 6 - 1;
 
-            for (int a = 0; a < 11; a++)
+            for (int a = 1; a <= 6; a++)
             {
-                list[a] = (a + 1);
-            }
-
-            Console.WriteLine($"{list[3]}");
-
-            for (int i = 1; i <= 6; i++)
-            {
-                // In ra các khoảng trống trước hàng i để tạo thành hình tam giác
-                for (int j = 1; j <= 6 - i; j++)
-                {
-                    Console.Write("_");
-                }
-
-                // In ra các dấu * cho hàng thứ i
-                for (int k = 1; k <= 2 * i - 1; k++)
-                {
-                    Console.Write($"{k}");
-                }
                 Console.WriteLine();
+                for (int b = 1; b <= d; b++)
+                {
+                    int x = 2 * a - 1;
+                    if (b == 6)
+                    {
+                        if (x > 9)
+                            x = x - ((x / 10) * 10);
+                        Console.Write(x);
+                    }
+
+                    if (b > 6 - a && b < 6 + a)
+                    {
+                        for (int c = 1; c <= a; c++)
+                        {
+                            if (b == 6 - c || b == 6 + c)
+                            {
+                                int y = x - c;
+                                if (y > 9)
+                                {
+                                    y = y - ((y / 10) * 10);
+                                }
+                                Console.Write(y);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
+                }
             }
         }
     }
 }
+
 
