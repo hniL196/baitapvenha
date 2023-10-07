@@ -8,6 +8,7 @@
 - 
 
 Có 2 hướng tiếp cận
+
 1. Hướng cấu trúc ( hướng dữ liệu - data.driven)
 - Input (nhập liệu)
 - Convert 
@@ -24,7 +25,7 @@ Có 2 hướng tiếp cận
 
 - Khái niệm lqan đến đối tượng
 	+ Thuộc tính (attribute)
-	+ bahavior - operation ( hành động) : Hành động chung		
+	+ Hành động (bahavior - operation) : Hành động chung		
 	+ Phương thức ( method diễn biến hành động)
 	+ Thông điệp (Messenge)
 	+ Sự kiện (Event)
@@ -46,3 +47,20 @@ Có 2 hướng tiếp cận
 		trong những tình huống khác nhau
 		Gồm : Compile time or Method overloading 
 		runtime or method overrrding
+
+public class Student ( khai báo lớp )
+{
+	private int id; (thuộc tính)
+
+	public string Id; (   )
+	{
+	get{return id;}
+	set{id = value;}
+	}
+
+	public void ShowInfo() ( phương thức )
+	{
+		Console.WriteLine($"")
+	}
+	
+}
